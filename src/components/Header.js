@@ -2,8 +2,7 @@
 import React from 'react'
 import './Header.css';
 import logo from "../images/logo.svg";
-import MenuIcon from '@material-ui/icons/Menu';
-import styled from 'styled-components'
+
 
 
 function Header() {
