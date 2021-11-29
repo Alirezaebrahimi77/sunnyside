@@ -16,7 +16,6 @@ function Section3() {
         </div>
       </div>
       <div className="right">
-        {/* <img src={orange} alt="" /> */}
         <div className="graphic">
           <h2>Graphic Design</h2>
           <p>

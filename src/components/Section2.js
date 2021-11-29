@@ -15,7 +15,7 @@ function Section1() {
           <p>
             using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.
           </p>
-          <a href="#">Learn More</a>
+          <a href="./">Learn More</a>
         </div>
       </div>
     </section>

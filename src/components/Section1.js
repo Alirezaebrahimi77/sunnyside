@@ -14,7 +14,7 @@ function Section1() {
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <a href="#">Learn More</a>
+          <a href="./">Learn More</a>
         </div>
       </div>
       <div className="right">
