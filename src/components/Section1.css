@@ -1,0 +1,64 @@
+.section1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.section1 .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.left-container{
+    width: 70%;
+}
+.left-container h2{
+    font-size: 2.4rem;
+    font-family: 'Fraunces', serif;
+    color: #212E3F;
+}
+.left-container p{
+    color: #83818C;
+    margin: 30px 0;
+}
+.left-container a{
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    color: #2D3238;
+}
+.section1 .right{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+.section1 .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    .mainText h1{
+        text-align: center;
+        
+    }
+    .banner{
+        height: 100vh;
+    }
+    .section1{
+        flex-direction: column-reverse;
+        height: 1000px;
+    }
+    .section1 .left .left-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0;
+        text-align: center;
+    }
+
+}

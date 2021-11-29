@@ -1,0 +1,72 @@
+.section3{
+    display: flex;
+    height: 500px;
+}
+
+@media (min-width: 1600px){
+    .section3{
+        height: 700px;
+    
+    }
+    .section1{
+        height: 700px;
+    
+    }
+    .section2{
+        height: 700px;
+    
+    }
+}
+
+.section3 .left{
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+}
+.section3 .right{
+    background-image: url("../images/desktop/image-photography.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+}
+
+
+
+.graphic{
+    width: 70%;
+    height: 30%;
+    text-align: center;
+}
+
+.graphic h2{
+    font-family: 'Fraunces', serif;
+    font-size: 1.7rem;
+    color: #27564E;
+    margin-bottom: 20px;
+}
+
+.graphic p{
+    color: #27564E;
+}
+ 
+@media (max-width: 768px){
+    .section3{
+        flex-direction: column;
+        height: 1000px;
+    
+    }
+
+    .section3 .left{
+        background-position: center;
+        background-size: cover;
+    }
+    .section3 .right{
+        background-position: center;
+        background-size: cover;
+    }
+}
