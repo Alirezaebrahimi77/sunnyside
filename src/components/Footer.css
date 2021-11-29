@@ -7,9 +7,6 @@ footer{
     padding: 70px 0;
 }
 .footerLogo img{
-    --width: 170%;
-    /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
-    width: calc(170% - --width / 2);
     margin-bottom: 30px;
 
 }
