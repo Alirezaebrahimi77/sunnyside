@@ -1,4 +1,4 @@
-# Simple Ui From Frontend Mentor Built Using React js
+# Simple UI From Frontend Mentor Built Using React js
 ## The link to open project
 https://nifty-engelbart-9b57e4.netlify.app/
 
