@@ -1,4 +1,5 @@
 # Simple UI From Frontend Mentor Built Using React js
+## Goal
 The goal of this project was training the react components and how they work together.
 ## The link to open project
 https://nifty-engelbart-9b57e4.netlify.app/
